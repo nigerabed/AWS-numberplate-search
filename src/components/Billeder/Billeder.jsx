@@ -2,7 +2,7 @@ import styles from "./Billeder.module.css"
 export default function Billeder({ carData }) {
   return (
     <div className={styles.BillederContainer}>
-      <h2 className={styles.h2}>Billeder</h2>
+      <h2 className={styles.h2}>Car Image</h2>
       {carData && carData.image ? (
         <img
           src={carData.image}

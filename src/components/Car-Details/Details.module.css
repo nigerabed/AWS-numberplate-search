@@ -1,7 +1,8 @@
 .carsvg{
     height: 2.5em;
-    width: 2em;
+    /* width: 2em; */
     fill:#0060BB;
+    margin-right: 1em;
 }
 
 .h2{
@@ -14,6 +15,7 @@
 
 .carDetailsHeading{
     display: flex;
+    align-items: starts;
 }
 
 .description{
