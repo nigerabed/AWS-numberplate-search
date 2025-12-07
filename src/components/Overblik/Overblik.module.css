@@ -1,0 +1,68 @@
+.h2{
+    height: 2em;
+    font-size: 2em;
+    width: 5em;
+    color: #0060BB;
+    font-weight: 500;
+}
+
+.carDetailsHeading{
+    display: flex;
+}
+.carsvg{
+    height: 2.5em;
+    width: 2em;
+    fill:#0060BB;
+}
+
+.overBlikSection{
+    border: 1px solid rgb(203, 200, 200);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ align-items: center;
+
+
+}
+
+.svg{
+    height: 1.2em;
+    width: 1.2em;
+    fill: green;
+    margin-left: 1em;
+}
+
+
+.overblokContainer {
+  display: flex;
+  flex-direction: column;  
+  justify-content: start;  
+  align-items: center;      
+  text-align:left;     
+  width: 100%;
+  padding: 1em 0;
+ border-bottom: 1px solid rgb(203, 200, 200);
+}
+
+.overblikContent{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+ 
+}
+
+.overblikContent p{
+   font-size: .8em;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #919090;
+}
+
+.overblikContent h4{
+    font-size: small;
+}
+
+.fullOverblikSection{
+    display: flex;
+    flex-direction: column;
+}

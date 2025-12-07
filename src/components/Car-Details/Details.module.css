@@ -1,0 +1,39 @@
+.carsvg{
+    height: 2.5em;
+    width: 2em;
+    fill:#0060BB;
+}
+
+.h2{
+    height: 2em;
+    font-size: 2em;
+    width: 5em;
+    color: #0060BB;
+    font-weight: 500;
+}
+
+.carDetailsHeading{
+    display: flex;
+}
+
+.description{
+    display: flex;
+}
+
+.description p{
+    text-align: left;
+    width: 20em;
+    margin-right: 2em;
+    font-size: .9em;
+    font-weight: 600;
+    line-height: 2em;
+}
+
+.description span{
+    font-size: .8em;
+}
+
+.CarDetailsSection{
+    display: flex;
+    flex-direction: column;
+}

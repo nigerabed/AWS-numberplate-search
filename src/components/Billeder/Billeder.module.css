@@ -1,0 +1,20 @@
+.h2{
+    height: 2em;
+    font-size: 2em;
+    width: 5em;
+    color: #0060BB;
+    font-weight: 500;
+}
+
+.BillederContainer{
+    padding-top: 2em; 
+}
+
+.BillederContainer img,
+.carImage {
+    height: 25em;
+    width: 40em;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
